@@ -1,0 +1,96 @@
+\documentclass[fontsize=12pt, paper=a4, headinclude, twoside=false, parskip=half+, pagesize=auto, numbers=noenddot, plainheadsepline, open=right, toc=listof, toc=bibliography]{scrreprt}
+% PDF-Kompression
+\pdfminorversion=5
+\pdfobjcompresslevel=1
+% Allgemeines
+\usepackage[automark]{scrpage2} % Kopf- und Fußzeilen
+\usepackage{amsmath,marvosym} % Mathesachen
+\usepackage[T1]{fontenc} % Ligaturen, richtige Umlaute im PDF
+\usepackage[utf8]{inputenc}% UTF8-Kodierung für Umlaute usw
+% Schriften
+\usepackage{mathpazo} % Palatino für Mathemodus
+%\usepackage{mathpazo,tgpagella} % auch sehr schöne Schriften
+\usepackage{setspace} % Zeilenabstand
+\onehalfspacing % 1,5 Zeilen
+% Schriften-Größen
+\setkomafont{chapter}{\Huge\rmfamily} % Überschrift der Ebene
+\setkomafont{section}{\Large\rmfamily}
+\setkomafont{subsection}{\large\rmfamily}
+\setkomafont{subsubsection}{\large\rmfamily}
+\setkomafont{chapterentry}{\large\rmfamily} % Überschrift der Ebene in Inhaltsverzeichnis
+\setkomafont{descriptionlabel}{\bfseries\rmfamily} % für description Umgebungen
+\setkomafont{captionlabel}{\small\bfseries}
+\setkomafont{caption}{\small}
+% Sprache: Deutsch
+\usepackage[ngerman]{babel} % Silbentrennung
+% PDF
+\usepackage[ngerman,pdfauthor={Jens Wambach},  pdfauthor={Jens Wambach}, pdftitle={masterarbeit}, breaklinks=true]{hyperref}
+\usepackage[final]{microtype} % mikrotypographische Optimierungen
+\usepackage{url}
+\usepackage{pdflscape} % einzelne Seiten drehen können
+% Tabellen
+\usepackage{multirow} % Tabellen-Zellen über mehrere Zeilen
+\usepackage{multicol} % mehre Spalten auf eine Seite
+\usepackage{tabularx} % Für Tabellen mit vorgegeben Größen
+\usepackage{longtable} % Tabellen über mehrere Seiten
+\usepackage{array}
+\usepackage{booktabs} 
+\usepackage{rotating}
+\usepackage[table]{xcolor}
+\usepackage{wrapfig,lipsum,booktabs}
+%  Bibliographie
+\usepackage{bibgerm} % Umlaute in BibTeX
+% Tabellen
+\usepackage{multirow} % Tabellen-Zellen über mehrere Zeilen
+\usepackage{multicol} % mehre Spalten auf eine Seite
+\usepackage{tabularx} % Für Tabellen mit vorgegeben Größen
+\usepackage{array}
+\usepackage{float}
+%Einbinden von PDFs
+\usepackage{pdfpages} 
+% Bilder
+\usepackage{graphicx} % Bilder
+\usepackage{color} % Farben
+\graphicspath{{images/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg} % bevorzuge pdf-Dateien
+\usepackage{subfigure} % mehrere Abbildungen nebeneinander/übereinander
+\newcommand{\subfigureautorefname}{\figurename} % um \autoref auch für subfigures benutzen
+\usepackage[all]{hypcap} % Beim Klicken auf Links zum Bild und nicht zu Caption gehen
+% Bildunterschrift
+\setcapindent{0em} % kein Einrücken der Caption von Figures und Tabellen
+\setcapwidth[c]{0.9\textwidth}
+\setlength{\abovecaptionskip}{0.2cm} % Abstand der zwischen Bild- und Bildunterschrift
+% Quellcode
+\usepackage[Algorithmus]{algorithm}
+\usepackage{listings} % für Formatierung in Quelltexten
+\definecolor{grau}{gray}{0.25}
+\definecolor{lightgrey}{rgb}{0.95,0.95,0.95}
+\definecolor{darkgreen}{rgb}{0,0.6,0}
+\lstset{basicstyle=\tiny, 
+		captionpos=b, breaklines=true, 
+		showstringspaces=false, tabsize=2, 
+		frame=lines, numbers=left, 
+		numberstyle=\tiny, xleftmargin=2em, 
+		framexleftmargin=2em, language=C++,
+		keywordstyle=\color{blue},
+		commentstyle=\color{darkgreen},
+		stringstyle=\color{red},
+		backgroundcolor=\color{lightgrey}}
+% linksbündige Fußboten
+\deffootnote{1.5em}{1em}{\makebox[1.5em][l]{\thefootnotemark}}
+
+\typearea{14} % typearea berechnet einen sinnvollen Satzspiegel (das heißt die Seitenränder) siehe auch http://www.ctan.org/pkg/typearea. Diese Berechnung befindet sich am Schluss, damit die Einstellungen oben berücksichtigt werden
+% für autoref von Gleichungen in itemize-Umgebungen
+\makeatletter
+\newcommand{\saved@equation}{}
+\let\saved@equation\equation
+\def\equation{\@hyper@itemfalse\saved@equation}
+\makeatother 
+
+\renewcommand{\listalgorithmname}{Liste von Algorithmen}
+
+
+% Eigene Befehle %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newcommand{\cClass}[1]{\textit{#1}}
+\newcommand{\cFunc}[1]{\textit{#1}}
+\newcommand{\cAttr}[1]{\textit{#1}}

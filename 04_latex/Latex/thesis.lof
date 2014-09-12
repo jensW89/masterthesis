@@ -1,0 +1,67 @@
+\select@language {ngerman}
+\select@language {ngerman}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces temperaturbedingte L\IeC {\"a}ngen\IeC {\"a}nderung}}{5}{figure.3.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces optisches Diagramm eines Infrarotsensors}}{14}{figure.4.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Schematische Darstellung der Teleskopkabinenausdehnung und deren Korrektur}}{16}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces W\IeC {\"a}rmebild von Schneidewerkzeug und Werkst\IeC {\"u}ck}}{19}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Prinzip der Lasertriangulation}}{21}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Einseitige thermische Belastung einer Aluminiums\IeC {\"a}ule}}{23}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Verformung des K\IeC {\"o}rpers durch Temperatureinfluss}}{23}{figure.5.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Anwendungslogik von Transformationen in OpenIndy}}{28}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Sequenzdiagramm zur Einmessung ohne Ma\IeC {\ss }stab}}{30}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Sequenzdiagramm zur Einmessung mit Ma\IeC {\ss }stab}}{31}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Ausdehnung des Messobjekts mit Ursprung in der Ecke}}{35}{figure.6.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Axometrische Ansicht}}}{35}{figure.6.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vorderansicht}}}{35}{figure.6.4}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Oberansicht}}}{35}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Ausdehnung des Messobjekts mit Angabe von Koordinatenursprung und Ausdehnungsursprung}}{36}{figure.6.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Axometrische Ansicht}}}{36}{figure.6.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vorderansicht}}}{36}{figure.6.5}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Oberansicht}}}{36}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Prinzip der Datumstransformationen}}{38}{figure.6.6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Ausdehnung des Messobjekts}}{45}{figure.7.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Axometrische Ansicht}}}{45}{figure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vorderansicht}}}{45}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces 6 Parameter-Transformation in das Objektkoordinatensystem}}{46}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Erfassung der Objektausdehnung druch Temperaturmessung}}{46}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Transformation mit Ma\IeC {\ss }stab in das Objektkoordinatensystem}}{47}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Erfassung der Objektausdehnung durch Transformation}}{48}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Eingabe der Parameter des Standardverfahrens}}{49}{figure.7.6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Draufsicht auf das Messobjekt}}{59}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces sensor configuration settings}}{60}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Transformationsparameter ohne Anwendung des Movements}}{61}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Transformation mit Anwendung des Movements und Ausdehnungsursprung bei (0.0m;0.0m;0.0m)}}{61}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Transformation mit Anwendung des Movements und Ausdehnungsursprung bei (5.0m;3.5m;0.0m)}}{61}{figure.8.5}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Restklaffen der transformierten Koordinaten ohne Movement}}{62}{figure.8.6}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Restklaffen der zum Koordinatenursprung kompensierten Koordinaten}}{63}{figure.8.7}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Transformationsparameter f\IeC {\"u}r $30^\circ \text {C}$ mit Korrektur zum Koordinatenursprung}}{63}{figure.8.8}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Restklaffen der zum Koordinatenursprung kompensierten Punkte bei $30^\circ \text {C}$}}{64}{figure.8.9}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Transformationsparameter bei Ausdehnungsursprung x=5m, y=3.5m, z=0.0m}}{64}{figure.8.10}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Restklaffen der zum Ausdehnungsursprung kompensierten Punkte}}{65}{figure.8.11}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Transformationsparameter mit angen\IeC {\"a}hertem Ausdehnungsursprung}}{65}{figure.8.12}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Restklaffen bei gen\IeC {\"a}hertem Ausdehnungsursprung}}{66}{figure.8.13}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces \IeC {\"U}bersicht des Zylinders}}{67}{figure.8.14}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Ausdehnung des Zylinders}}{67}{figure.8.15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Axometrische Ansicht}}}{67}{figure.8.15}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Seitenansicht}}}{67}{figure.8.15}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Frontansicht}}}{67}{figure.8.15}
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Transformierte Koordinaten Standpunkt 1}}{69}{figure.8.16}
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Transformierte Koordinaten Standpunkt 2}}{69}{figure.8.17}
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Transformierte und korrigierte Koordinaten Standpunkt 2}}{70}{figure.8.18}
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Transformationsparameter der Messaufgabe}}{70}{figure.8.19}
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Vorrichtung und Ergebnis}}{71}{figure.8.20}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Einmessung in das Referenzpunktfeld}}{80}{figure.A.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ausschnitt des Punktfelds}}}{80}{figure.A.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Temperaturerfassung}}}{80}{figure.A.1}
+\addvspace {10\p@ }

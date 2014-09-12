@@ -1,0 +1,98 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Generator" content="Microsoft Word 97">
+   <meta name="Template" content="D:\Programme\Microsoft Office\Office\html.dot">
+   <meta name="GENERATOR" content="Mozilla/4.5 [en] (X11; I; SunOS 5.6 sun4u) [Netscape]">
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080" alink="#FF0000">
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=5 WIDTH="585" >
+<tr>
+<td VALIGN=CENTER WIDTH="98%">
+<hr ALIGN="LEFT">
+<h2>
+Abschlussarbeit von Jens Wambach</h2>
+<b>im Master-Studiengang Geoinformatik und Vermessung&nbsp;</b>
+<p><b>Thema:</b> Temperaturkompensation in der Industrievermessung&nbsp;
+<p><b>Betreuer:</b> Prof. Dr.-Ing. Fredie Kern&nbsp;
+<p><b>Bearbeitungs-Zeitraum:</b> 01.03.2014 - 31.08.2014&nbsp;
+<p>&nbsp;</td>
+
+<td VALIGN=CENTER WIDTH="2%">&nbsp;</td>
+</tr>
+
+<tr>
+<td VALIGN=CENTER WIDTH="98%">
+<h2>
+
+<hr ALIGN="LEFT">&nbsp;Ausgangslage /Problemstellung</h2>
+<font color="#000000">
+<p>Pr&auml;zisionsmessungen zur Fertigungs- und Qualit&auml;tskontrolle im Automobil-,
+Flugzeug- und Schienenfahrzeugbau sind eine Hauptaufgabe der Industrievermessung.</p>
+<p>Aufgrund der immer kleiner werdenden Toleranzen für die Werkstücke, ist eine Kompensation
+der thermischen Ausdehnung unerlässlich.</p>
+<p>Bis zu 75% der geometrischen Fehler von gefertigten Werkstücken sind auf thermische Einflüsse zurückzuführen.</p>
+</font>
+<h2>
+Zielsetzung&nbsp;</h2>
+<font color="#000000">
+<p>Ein Verfahren zur Temperaturkompensation des Messobjekts ist zu entwickeln. </p>
+<p>Die Umsetzung und Implementierung der Logik und Funktionalität des Verfahrens erfolgt in OpenIndy, eine Open- Source- Software für Industriemesssysteme.</p>
+<p>Das Konzept des Verfahrens basiert auf der Recherche zu derzeitig verwendeten Verfahren der Temperaturkompensation in Anwendungen und 
+in kommerzeillen Softwarelösungen. Die Validierung des eigenen Verfahrens soll anhand einiger Testmessungen durchgeführt werden.</p>
+<p>Die Entwicklung des Verfahrens soll gezielt in der Open- Source- Software geschehen, sodass die Funktionalität transparent und nachvollziehbar ist. Des weiteren
+ ist dadurch gegeben, dass das Verfahren für Spezialfälle angepasst und erweitert werden kann.</p>
+</font>
+<h2>
+Ergebnisse der Arbeit</h2>
+<font color="#000000">
+<p>Die Funktionsweise des Verfahrens basiert auf einem eigenen Kriterienkatalog, der aus der Recherche aktueller Verfahren erstellt wurde. Zur Recherche wurden
+verschiedene Anwendungen von Verfahren der Temperaturkompensation in mehreren verschiedenen Bereichen der Industrievermessung hernagezogen. Die Umsetzung des 
+Verfahrens mit den zuvor erarbeiteten Kriterien ergab 2 Möglichkeiten, um die thermische Ausdehnung des Messobjekts zu kompensieren.</p>
+
+<p>
+<img src="pics/temperaturmessung.jpg" alt="Temperaturmessung" name="Temperaturmessung" width=25%  align="left" hspace=5 vspace=10> 
+Eines der Verfahren ermittelt die Ausdehnung des Messobjekts durch Angabe der Objekttemperatur, welche bestmöglich zu erfassen ist, und durch Festlegen 
+des Materials.<br>
+Aus der Differenz der aktuellen Objekttemperatur und der Referenztemperatur des Messobjekts, sowie dem zum Material gehörigen Ausdehnungskoeffizienten, lässt
+ sich der Ausdehnungsmaßstab ermittelt. Die Inverse dieses Maßstabs wird zur Kompensation verwendet.
+</p>
+
+<p>
+Als alternative Möglichkeit kann die Ausdehnung des Objekts durch Transformationen erfasst werden. Diese Variante hat den Vorteil, dass Objekttemperatur und 
+Ausdehnungskoeffizient nicht bekannt sein müssen. Die Bestimmung der tatsächlichen Temperatur erschwert sich, da oft nur die Oberflächentemperatur gemessen werden kann. 
+Ebenso weichen die Annahmen des Materials und dessen Ausdehnungskoeffizienten oft von der Realität ab.
+</p>
+
+<p>
+<img src="pics/transformationsverkettung.png" alt="Transformationsverkettung" name="Transformationsverkettung" width=50%  align="right" hspace=5 vspace=10> 
+Die allgemeinen Transformationsparameter, um den Bezug zwischen Instrumentenkoordinatensystem und Objektkoordinatensystem herzustellen, sowie die zusätzlichen 
+Transoformationen zur Kompensation des thermischen Einflusses werden in einer Verkettung dargestellt. Alternativ könnte bei jeder Änderung der Temperatur 
+eine neue Einmessung durchgeführt werden.
+</p>
+
+<p>
+Im Vergleich zu derzeitigen Verfahren wurde das entwickelte Verfahren um einen neuen Bezugspunkt zur Anwendung der Kompensation erweitert.<br>
+In der Literatur sind hinweise zu finden, dass derzeitige Verfahren eine Kompensation der Beobachtungen zum Koordinatenursprung durchführen. Das zu Grunde 
+liegende Modell ist jedoch nur in einigen Sonderfällen gültig.<br>
+Der erweiterte Bezugspunkt stellt den tatsächlichen Ausdehnungsursprung des Messobjekts dar. Alle Beobachtungen werden im Bezug zu diesem Punkt korrigiert.
+Diese Erweiterung ermöglicht es das Objektkoordinatensystem beliebig in das Messobjekt zu legen, ohne Einfluss auf die Kompensation zu haben.
+</p>
+
+<p>
+<img src="pics/einmessen6paramSequenzUML.png" alt="Ablauf einer Messung" name="Ablauf einer Messung" width=100%  align="right" hspace=5 vspace=10> 
+</p>
+
+</font>
+</td>
+
+<td VALIGN=CENTER WIDTH="2%">&nbsp;</td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

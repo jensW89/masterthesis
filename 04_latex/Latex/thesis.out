@@ -1,0 +1,43 @@
+\BOOKMARK [0][-]{chapter*.1}{Kurzfassung}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{Abbildungsverzeichnis}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{Tabellenverzeichnis}{}% 4
+\BOOKMARK [0][-]{chapter.1}{\334berblick}{}% 5
+\BOOKMARK [0][-]{chapter.2}{Ziele}{}% 6
+\BOOKMARK [0][-]{chapter.3}{Temperatur und thermische Ausdehnung}{}% 7
+\BOOKMARK [1][-]{section.3.1}{Ausdehnung von Materialien}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.2}{Liste von Ausdehnungskoeffizienten}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.3}{W\344rmeleitf\344higkeit}{chapter.3}% 10
+\BOOKMARK [0][-]{chapter.4}{Temperaturerfassung und Sensoren}{}% 11
+\BOOKMARK [1][-]{section.4.1}{Kontaktthermometer}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.2}{Infrarot}{chapter.4}% 13
+\BOOKMARK [0][-]{chapter.5}{Anwendungsbeispiele der Temperaturkompensation}{}% 14
+\BOOKMARK [1][-]{section.5.1}{Permanent\374berwachung des 20m VLBI- Radioteleskops an der Fundamentalstation in Wettzell}{chapter.5}% 15
+\BOOKMARK [1][-]{section.5.2}{Koordinatenmessger\344te und Messobjekt}{chapter.5}% 16
+\BOOKMARK [1][-]{section.5.3}{Werkzeugmaschinen und Objekt}{chapter.5}% 17
+\BOOKMARK [1][-]{section.5.4}{Flugzeugbau}{chapter.5}% 18
+\BOOKMARK [1][-]{section.5.5}{Identifikation von Deformationen mit dynamischen Strukturmodellen}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.6}{Unsicherheiten}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.7}{Zusammenfassung und Beurteilung}{chapter.5}% 21
+\BOOKMARK [0][-]{chapter.6}{Entwicklung des Verfahren zur Temperaturkompensation}{}% 22
+\BOOKMARK [1][-]{section.6.1}{OpenIndy}{chapter.6}% 23
+\BOOKMARK [1][-]{section.6.2}{Grundkonzept und Movements}{chapter.6}% 24
+\BOOKMARK [2][-]{subsection.6.2.1}{Ausdehnung von Objekten}{section.6.2}% 25
+\BOOKMARK [2][-]{subsection.6.2.2}{Erweiterung der Klassen Transformationsparameter und Koordinatensystem}{section.6.2}% 26
+\BOOKMARK [0][-]{chapter.7}{Implementierung und Umsetzung des Verfahren}{}% 27
+\BOOKMARK [1][-]{section.7.1}{Integration der Anwendungslogik von Transformationen und Temperaturkompensation in OpenIndy}{chapter.7}% 28
+\BOOKMARK [1][-]{section.7.2}{Anwenden von Transformationen}{chapter.7}% 29
+\BOOKMARK [1][-]{section.7.3}{Funktionen zur Bestimmung der Ausdehnung}{chapter.7}% 30
+\BOOKMARK [2][-]{subsection.7.3.1}{Standardverfahren zur Temperaturkompensation}{section.7.3}% 31
+\BOOKMARK [2][-]{subsection.7.3.2}{6 Parameter Helmert Transformation}{section.7.3}% 32
+\BOOKMARK [2][-]{subsection.7.3.3}{9 Parameter Helmert Transformation}{section.7.3}% 33
+\BOOKMARK [2][-]{subsection.7.3.4}{Bestimmung des Movements aus einer Transformation}{section.7.3}% 34
+\BOOKMARK [0][-]{chapter.8}{Verifizierung und Validierung}{}% 35
+\BOOKMARK [1][-]{section.8.1}{Einfluss des Ausdehnungsursprungs}{chapter.8}% 36
+\BOOKMARK [1][-]{section.8.2}{Erfassung der Ausdehnung eines Zylinders mit zwei Standpunkten}{chapter.8}% 37
+\BOOKMARK [1][-]{section.8.3}{Einfluss der Temperaturkompensation bei Simulationen}{chapter.8}% 38
+\BOOKMARK [1][-]{section.8.4}{Zusammenfassung der Ergebnisse}{chapter.8}% 39
+\BOOKMARK [0][-]{chapter.9}{Fazit und Ausblick}{}% 40
+\BOOKMARK [0][-]{chapter*.15}{Literaturverzeichnis}{}% 41
+\BOOKMARK [0][-]{appendix.A}{Vergleich der Transformationen}{}% 42
+\BOOKMARK [0][-]{appendix.B}{Sollwerte und Messwerte zu den Testmessungen}{}% 43

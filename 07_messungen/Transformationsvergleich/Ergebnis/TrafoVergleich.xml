@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oiProjectData name="TrafoVergleich.xml" date="2014-08-11T14:48:00" idcount="63">
+    <member type="activeCoordinatesystem" ref="1"/>
+    <member type="activeStation" ref="2"/>
+    <station id="2" name="STATION01">
+        <activeSensor name="FaroLaserTracker" plugin="OiSigma3D"/>
+        <member type="position" ref="3"/>
+        <member type="coordinatesystem" ref="4"/>
+    </station>
+    <coordinatesystem id="1" name="PART" solved="0">
+        <expansionOrigin x="0" y="0" z="0"/>
+        <member type="nominalGeometry" ref="13"/>
+        <member type="nominalGeometry" ref="14"/>
+        <member type="nominalGeometry" ref="15"/>
+        <member type="nominalGeometry" ref="16"/>
+        <member type="nominalGeometry" ref="17"/>
+        <member type="nominalGeometry" ref="18"/>
+        <member type="nominalGeometry" ref="19"/>
+        <member type="nominalGeometry" ref="20"/>
+        <member type="transformationParameter" ref="61"/>
+        <member type="transformationParameter" ref="62"/>
+        <member type="transformationParameter" ref="63"/>
+    </coordinatesystem>
+    <coordinatesystem id="4" name="STATION01" solved="0">
+        <expansionOrigin x="0" y="0" z="0"/>
+        <member type="observation" ref="30"/>
+        <member type="observation" ref="32"/>
+        <member type="observation" ref="34"/>
+        <member type="observation" ref="36"/>
+        <member type="observation" ref="38"/>
+        <member type="observation" ref="40"/>
+        <member type="observation" ref="42"/>
+        <member type="observation" ref="44"/>
+        <member type="observation" ref="46"/>
+        <member type="observation" ref="48"/>
+        <member type="observation" ref="50"/>
+        <member type="observation" ref="52"/>
+        <member type="observation" ref="54"/>
+        <member type="observation" ref="56"/>
+        <member type="observation" ref="58"/>
+        <member type="observation" ref="60"/>
+        <member type="transformationParameter" ref="61"/>
+        <member type="transformationParameter" ref="62"/>
+        <member type="transformationParameter" ref="63"/>
+    </coordinatesystem>
+    <transformationsparameter id="61" name="t6param" solved="1" tx="3.30972" ty="3.3005" tz="1.52758" rx="-0.000401119" ry="-0.0112815" rz="-3.07743" mx="1" my="1" mz="1" use="0" time="Mo 11. Aug 14:33:48 2014" movement="0" datumtrafo="0">
+        <from type="coordinatesystem" ref="4"/>
+        <to type="coordinatesystem" ref="1"/>
+        <member type="previouslyNeeded" ref="13"/>
+        <member type="previouslyNeeded" ref="22"/>
+        <member type="previouslyNeeded" ref="14"/>
+        <member type="previouslyNeeded" ref="23"/>
+        <member type="previouslyNeeded" ref="15"/>
+        <member type="previouslyNeeded" ref="24"/>
+        <member type="previouslyNeeded" ref="16"/>
+        <member type="previouslyNeeded" ref="25"/>
+        <member type="previouslyNeeded" ref="17"/>
+        <member type="previouslyNeeded" ref="26"/>
+        <member type="previouslyNeeded" ref="18"/>
+        <member type="previouslyNeeded" ref="27"/>
+        <member type="previouslyNeeded" ref="19"/>
+        <member type="previouslyNeeded" ref="28"/>
+        <member type="previouslyNeeded" ref="20"/>
+        <member type="previouslyNeeded" ref="21"/>
+        <function name="6ParameterHelmertTransformation" type="de.openIndy.Plugin.Function.SystemTransformation.v001" plugin="OpenIndy Default Plugin" executionIndex="0">
+            <inputElement index="0" type="1" ref="13"/>
+            <inputElement index="0" type="1" ref="22"/>
+            <inputElement index="0" type="1" ref="14"/>
+            <inputElement index="0" type="1" ref="23"/>
+            <inputElement index="0" type="1" ref="15"/>
+            <inputElement index="0" type="1" ref="24"/>
+            <inputElement index="0" type="1" ref="16"/>
+            <inputElement index="0" type="1" ref="25"/>
+            <inputElement index="0" type="1" ref="17"/>
+            <inputElement index="0" type="1" ref="26"/>
+            <inputElement index="0" type="1" ref="18"/>
+            <inputElement index="0" type="1" ref="27"/>
+            <inputElement index="0" type="1" ref="19"/>
+            <inputElement index="0" type="1" ref="28"/>
+            <inputElement index="0" type="1" ref="20"/>
+            <inputElement index="0" type="1" ref="21"/>
+        </function>
+    </transformationsparameter>
+    <transformationsparameter id="62" name="t7param" solved="1" tx="3.30946" ty="3.30057" tz="1.52758" rx="-0.000401119" ry="-0.0112815" rz="-3.07743" mx="0.999919" my="0.999919" mz="0.999919" use="0" time="Mo 11. Aug 14:34:44 2014" movement="0" datumtrafo="0">
+        <from type="coordinatesystem" ref="4"/>
+        <to type="coordinatesystem" ref="1"/>
+        <member type="previouslyNeeded" ref="13"/>
+        <member type="previouslyNeeded" ref="22"/>
+        <member type="previouslyNeeded" ref="14"/>
+        <member type="previouslyNeeded" ref="23"/>
+        <member type="previouslyNeeded" ref="15"/>
+        <member type="previouslyNeeded" ref="24"/>
+        <member type="previouslyNeeded" ref="16"/>
+        <member type="previouslyNeeded" ref="25"/>
+        <member type="previouslyNeeded" ref="17"/>
+        <member type="previouslyNeeded" ref="26"/>
+        <member type="previouslyNeeded" ref="18"/>
+        <member type="previouslyNeeded" ref="27"/>
+        <member type="previouslyNeeded" ref="19"/>
+        <member type="previouslyNeeded" ref="28"/>
+        <member type="previouslyNeeded" ref="20"/>
+        <member type="previouslyNeeded" ref="21"/>
+        <function name="HelmertTransformation" type="de.openIndy.Plugin.Function.SystemTransformation.v001" plugin="OpenIndy Default Plugin" executionIndex="0">
+            <inputElement index="0" type="1" ref="13"/>
+            <inputElement index="0" type="1" ref="22"/>
+            <inputElement index="0" type="1" ref="14"/>
+            <inputElement index="0" type="1" ref="23"/>
+            <inputElement index="0" type="1" ref="15"/>
+            <inputElement index="0" type="1" ref="24"/>
+            <inputElement index="0" type="1" ref="16"/>
+            <inputElement index="0" type="1" ref="25"/>
+            <inputElement index="0" type="1" ref="17"/>
+            <inputElement index="0" type="1" ref="26"/>
+            <inputElement index="0" type="1" ref="18"/>
+            <inputElement index="0" type="1" ref="27"/>
+            <inputElement index="0" type="1" ref="19"/>
+            <inputElement index="0" type="1" ref="28"/>
+            <inputElement index="0" type="1" ref="20"/>
+            <inputElement index="0" type="1" ref="21"/>
+        </function>
+    </transformationsparameter>
+    <transformationsparameter id="63" name="t9param" solved="1" tx="3.31087" ty="3.30048" tz="1.52759" rx="-0.000401119" ry="-0.0112815" rz="-3.07743" mx="1.00034" my="0.999921" mz="0.999925" use="1" time="Mo 11. Aug 14:35:15 2014" movement="0" datumtrafo="0">
+        <from type="coordinatesystem" ref="4"/>
+        <to type="coordinatesystem" ref="1"/>
+        <member type="previouslyNeeded" ref="13"/>
+        <member type="previouslyNeeded" ref="22"/>
+        <member type="previouslyNeeded" ref="14"/>
+        <member type="previouslyNeeded" ref="23"/>
+        <member type="previouslyNeeded" ref="15"/>
+        <member type="previouslyNeeded" ref="24"/>
+        <member type="previouslyNeeded" ref="16"/>
+        <member type="previouslyNeeded" ref="25"/>
+        <member type="previouslyNeeded" ref="17"/>
+        <member type="previouslyNeeded" ref="26"/>
+        <member type="previouslyNeeded" ref="18"/>
+        <member type="previouslyNeeded" ref="27"/>
+        <member type="previouslyNeeded" ref="19"/>
+        <member type="previouslyNeeded" ref="28"/>
+        <member type="previouslyNeeded" ref="20"/>
+        <member type="previouslyNeeded" ref="21"/>
+        <function name="9ParameterHelmertTransformation" type="de.openIndy.Plugin.Function.SystemTransformation.v001" plugin="OpenIndy Default Plugin" executionIndex="0">
+            <inputElement index="0" type="1" ref="13"/>
+            <inputElement index="0" type="1" ref="22"/>
+            <inputElement index="0" type="1" ref="14"/>
+            <inputElement index="0" type="1" ref="23"/>
+            <inputElement index="0" type="1" ref="15"/>
+            <inputElement index="0" type="1" ref="24"/>
+            <inputElement index="0" type="1" ref="16"/>
+            <inputElement index="0" type="1" ref="25"/>
+            <inputElement index="0" type="1" ref="17"/>
+            <inputElement index="0" type="1" ref="26"/>
+            <inputElement index="0" type="1" ref="18"/>
+            <inputElement index="0" type="1" ref="27"/>
+            <inputElement index="0" type="1" ref="19"/>
+            <inputElement index="0" type="1" ref="28"/>
+            <inputElement index="0" type="1" ref="20"/>
+            <inputElement index="0" type="1" ref="21"/>
+        </function>
+    </transformationsparameter>
+    <geometry id="3" name="STATION01" type="point" nominal="0" common="0" solved="0">
+        <measurementconfig name="default configuration"/>
+    </geometry>
+    <geometry id="21" name="10" type="point" nominal="0" common="0" solved="1">
+        <coordinates x="0.0158667" y="1.43826" z="2.13013"/>
+        <standardDeviation value="1.65721e-05"/>
+        <member type="observation" ref="30"/>
+        <member type="observation" ref="32"/>
+        <member type="nominalGeometry" ref="13"/>
+        <measurementconfig name="default configuration"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+        <function name="BestFitPoint" type="de.openIndy.Plugin.Function.FitFunction.v001" plugin="OpenIndy Default Plugin" executionIndex="0">
+            <inputElement index="0" type="19" ref="30"/>
+            <inputElement index="0" type="19" ref="32"/>
+        </function>
+    </geometry>
+    <geometry id="13" name="10" type="point" nominal="1" common="205" solved="1">
+        <coordinates x="0.015845" y="1.43826" z="2.13013"/>
+        <standardDeviation value="0"/>
+        <member type="coordinatesystem" ref="1"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+    </geometry>
+    <geometry id="22" name="11" type="point" nominal="0" common="0" solved="1">
+        <coordinates x="0.0250979" y="1.43066" z="0.771385"/>
+        <standardDeviation value="8.95825e-06"/>
+        <member type="observation" ref="34"/>
+        <member type="observation" ref="36"/>
+        <member type="nominalGeometry" ref="14"/>
+        <measurementconfig name="default configuration"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+        <function name="BestFitPoint" type="de.openIndy.Plugin.Function.FitFunction.v001" plugin="OpenIndy Default Plugin" executionIndex="0">
+            <inputElement index="0" type="19" ref="34"/>
+            <inputElement index="0" type="19" ref="36"/>
+        </function>
+    </geometry>
+    <geometry id="14" name="11" type="point" nominal="1" common="205" solved="1">
+        <coordinates x="0.025035" y="1.43067" z="0.771385"/>
+        <standardDeviation value="0"/>
+        <member type="coordinatesystem" ref="1"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+    </geometry>
+    <geometry id="23" name="12" type="point" nominal="0" common="0" solved="1">
+        <coordinates x="0.022869" y="2.21865" z="1.50151"/>
+        <standardDeviation value="8.27982e-06"/>
+        <member type="observation" ref="38"/>
+        <member type="observation" ref="40"/>
+        <member type="nominalGeometry" ref="15"/>
+        <measurementconfig name="default configuration"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+        <function name="BestFitPoint" type="de.openIndy.Plugin.Function.FitFunction.v001" plugin="OpenIndy Default Plugin" executionIndex="0">
+            <inputElement index="0" type="19" ref="38"/>
+            <inputElement index="0" type="19" ref="40"/>
+        </function>
+    </geometry>
+    <geometry id="15" name="12" type="point" nominal="1" common="205" solved="1">
+        <coordinates x="0.022824" y="2.21868" z="1.50151"/>
+        <standardDeviation value="0"/>
+        <member type="coordinatesystem" ref="1"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+    </geometry>
+    <geometry id="24" name="13" type="point" nominal="0" common="0" solved="1">
+        <coordinates x="0.0219568" y="3.89656" z="1.50376"/>
+        <standardDeviation value="9.10131e-06"/>
+        <member type="observation" ref="42"/>
+        <member type="observation" ref="44"/>
+        <member type="nominalGeometry" ref="16"/>
+        <measurementconfig name="default configuration"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+        <function name="BestFitPoint" type="de.openIndy.Plugin.Function.FitFunction.v001" plugin="OpenIndy Default Plugin" executionIndex="0">
+            <inputElement index="0" type="19" ref="42"/>
+            <inputElement index="0" type="19" ref="44"/>
+        </function>
+    </geometry>
+    <geometry id="16" name="13" type="point" nominal="1" common="205" solved="1">
+        <coordinates x="0.021866" y="3.89655" z="1.50377"/>
+        <standardDeviation value="0"/>
+        <member type="coordinatesystem" ref="1"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+    </geometry>
+    <geometry id="25" name="14" type="point" nominal="0" common="0" solved="1">
+        <coordinates x="0.0245659" y="5.15892" z="1.51004"/>
+        <standardDeviation value="1.24396e-05"/>
+        <member type="observation" ref="46"/>
+        <member type="observation" ref="48"/>
+        <member type="nominalGeometry" ref="17"/>
+        <measurementconfig name="default configuration"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+        <function name="BestFitPoint" type="de.openIndy.Plugin.Function.FitFunction.v001" plugin="OpenIndy Default Plugin" executionIndex="0">
+            <inputElement index="0" type="19" ref="46"/>
+            <inputElement index="0" type="19" ref="48"/>
+        </function>
+    </geometry>
+    <geometry id="17" name="14" type="point" nominal="1" common="205" solved="1">
+        <coordinates x="0.024491" y="5.1589" z="1.51004"/>
+        <standardDeviation value="0"/>
+        <member type="coordinatesystem" ref="1"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+    </geometry>
+    <geometry id="26" name="15" type="point" nominal="0" common="0" solved="1">
+        <coordinates x="0.0206881" y="6.44674" z="2.13286"/>
+        <standardDeviation value="7.1041e-06"/>
+        <member type="observation" ref="50"/>
+        <member type="observation" ref="52"/>
+        <member type="nominalGeometry" ref="18"/>
+        <measurementconfig name="default configuration"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+        <function name="BestFitPoint" type="de.openIndy.Plugin.Function.FitFunction.v001" plugin="OpenIndy Default Plugin" executionIndex="0">
+            <inputElement index="0" type="19" ref="50"/>
+            <inputElement index="0" type="19" ref="52"/>
+        </function>
+    </geometry>
+    <geometry id="18" name="15" type="point" nominal="1" common="205" solved="1">
+        <coordinates x="0.020776" y="6.44673" z="2.13286"/>
+        <standardDeviation value="0"/>
+        <member type="coordinatesystem" ref="1"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+    </geometry>
+    <geometry id="27" name="16" type="point" nominal="0" common="0" solved="1">
+        <coordinates x="0.0233939" y="6.43851" z="1.49886"/>
+        <standardDeviation value="1.94777e-06"/>
+        <member type="observation" ref="54"/>
+        <member type="observation" ref="56"/>
+        <member type="nominalGeometry" ref="19"/>
+        <measurementconfig name="default configuration"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+        <function name="BestFitPoint" type="de.openIndy.Plugin.Function.FitFunction.v001" plugin="OpenIndy Default Plugin" executionIndex="0">
+            <inputElement index="0" type="19" ref="54"/>
+            <inputElement index="0" type="19" ref="56"/>
+        </function>
+    </geometry>
+    <geometry id="19" name="16" type="point" nominal="1" common="205" solved="1">
+        <coordinates x="0.02348" y="6.4385" z="1.49886"/>
+        <standardDeviation value="0"/>
+        <member type="coordinatesystem" ref="1"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+    </geometry>
+    <geometry id="28" name="17" type="point" nominal="0" common="0" solved="1">
+        <coordinates x="0.0275698" y="6.42538" z="0.766583"/>
+        <standardDeviation value="1.0684e-05"/>
+        <member type="observation" ref="58"/>
+        <member type="observation" ref="60"/>
+        <member type="nominalGeometry" ref="20"/>
+        <measurementconfig name="default configuration"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+        <function name="BestFitPoint" type="de.openIndy.Plugin.Function.FitFunction.v001" plugin="OpenIndy Default Plugin" executionIndex="0">
+            <inputElement index="0" type="19" ref="58"/>
+            <inputElement index="0" type="19" ref="60"/>
+        </function>
+    </geometry>
+    <geometry id="20" name="17" type="point" nominal="1" common="205" solved="1">
+        <coordinates x="0.027691" y="6.42539" z="0.766588"/>
+        <standardDeviation value="0"/>
+        <member type="coordinatesystem" ref="1"/>
+        <member type="usedForFeature" ref="61"/>
+        <member type="usedForFeature" ref="62"/>
+        <member type="usedForFeature" ref="63"/>
+    </geometry>
+    <observation id="30" x="0.0158666" y="1.43826" z="2.13015" isValid="1" sigmaX="2.06224e-05" sigmaY="1.35066e-05" sigmaZ="4.16055e-06">
+        <member type="station" ref="2"/>
+        <reading id="29" type="2" time="2014-08-11T14:30:07">
+            <measurement type="azimuth" value="0.579839" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="1.40365" sigma="2.74017e-08"/>
+            <measurement type="distance" value="3.83169" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="32" x="0.0158668" y="1.43825" z="2.13011" isValid="1" sigmaX="2.06224e-05" sigmaY="1.35067e-05" sigmaZ="4.16029e-06">
+        <member type="station" ref="2"/>
+        <reading id="31" type="2" time="2014-08-11T14:30:12">
+            <measurement type="azimuth" value="-2.56175" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="-1.40366" sigma="2.74017e-08"/>
+            <measurement type="distance" value="3.83169" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="34" x="0.0250935" y="1.43067" z="0.771394" isValid="1" sigmaX="2.05361e-05" sigmaY="1.3468e-05" sigmaZ="4.67992e-06">
+        <member type="station" ref="2"/>
+        <reading id="33" type="2" time="2014-08-11T14:30:29">
+            <measurement type="azimuth" value="0.580447" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="1.75906" sigma="2.74017e-08"/>
+            <measurement type="distance" value="3.85464" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="36" x="0.0251022" y="1.43066" z="0.771376" isValid="1" sigmaX="2.05361e-05" sigmaY="1.34681e-05" sigmaZ="4.68004e-06">
+        <member type="station" ref="2"/>
+        <reading id="35" type="2" time="2014-08-11T14:30:34">
+            <measurement type="azimuth" value="-2.56114" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="-1.75906" sigma="2.74017e-08"/>
+            <measurement type="distance" value="3.85464" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="38" x="0.0228687" y="2.21865" z="1.50152" isValid="1" sigmaX="2.31964e-05" sigmaY="9.32373e-06" sigmaZ="1.17696e-07">
+        <member type="station" ref="2"/>
+        <reading id="37" type="2" time="2014-08-11T14:30:47">
+            <measurement type="azimuth" value="0.382169" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="1.56801" sigma="2.74017e-08"/>
+            <measurement type="distance" value="3.46052" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="40" x="0.0228692" y="2.21865" z="1.5015" isValid="1" sigmaX="2.31964e-05" sigmaY="9.32371e-06" sigmaZ="1.17611e-07">
+        <member type="station" ref="2"/>
+        <reading id="39" type="2" time="2014-08-11T14:30:52">
+            <measurement type="azimuth" value="-2.75942" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="-1.56801" sigma="2.74017e-08"/>
+            <measurement type="distance" value="3.46052" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="42" x="0.0219555" y="3.89655" z="1.50377" isValid="1" sigmaX="2.48342e-05" sigmaY="2.87431e-06" sigmaZ="1.37978e-07">
+        <member type="station" ref="2"/>
+        <reading id="41" type="2" time="2014-08-11T14:31:04">
+            <measurement type="azimuth" value="-0.11517" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="1.56667" sigma="2.74017e-08"/>
+            <measurement type="distance" value="3.34145" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="44" x="0.0219582" y="3.89656" z="1.50375" isValid="1" sigmaX="2.48342e-05" sigmaY="2.87438e-06" sigmaZ="1.37866e-07">
+        <member type="station" ref="2"/>
+        <reading id="43" type="2" time="2014-08-11T14:31:09">
+            <measurement type="azimuth" value="3.02642" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="-1.56667" sigma="2.74017e-08"/>
+            <measurement type="distance" value="3.34145" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="46" x="0.0245623" y="5.15892" z="1.51005" isValid="1" sigmaX="2.25035e-05" sigmaY="1.08895e-05" sigmaZ="1.75803e-07">
+        <member type="station" ref="2"/>
+        <reading id="45" type="2" time="2014-08-11T14:31:22">
+            <measurement type="azimuth" value="-0.450673" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="1.56511" sigma="2.74017e-08"/>
+            <measurement type="distance" value="3.77445" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="48" x="0.0245695" y="5.15893" z="1.51003" isValid="1" sigmaX="2.25035e-05" sigmaY="1.08896e-05" sigmaZ="1.75661e-07">
+        <member type="station" ref="2"/>
+        <reading id="47" type="2" time="2014-08-11T14:31:27">
+            <measurement type="azimuth" value="2.69092" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="-1.56512" sigma="2.74017e-08"/>
+            <measurement type="distance" value="3.77445" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="50" x="0.0206866" y="6.44674" z="2.13287" isValid="1" sigmaX="1.89306e-05" sigmaY="1.59464e-05" sigmaZ="3.51822e-06">
+        <member type="station" ref="2"/>
+        <reading id="49" type="2" time="2014-08-11T14:31:42">
+            <measurement type="azimuth" value="-0.700038" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="1.42969" sigma="2.74017e-08"/>
+            <measurement type="distance" value="4.59171" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="52" x="0.0206896" y="6.44675" z="2.13285" isValid="1" sigmaX="1.89306e-05" sigmaY="1.59464e-05" sigmaZ="3.51813e-06">
+        <member type="station" ref="2"/>
+        <reading id="51" type="2" time="2014-08-11T14:31:47">
+            <measurement type="azimuth" value="2.44155" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="-1.42969" sigma="2.74017e-08"/>
+            <measurement type="distance" value="4.59171" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="54" x="0.0233928" y="6.43851" z="1.49886" isValid="1" sigmaX="1.91506e-05" sigmaY="1.60707e-05" sigmaZ="1.4022e-07">
+        <member type="station" ref="2"/>
+        <reading id="53" type="2" time="2014-08-11T14:32:01">
+            <measurement type="azimuth" value="-0.698171" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="1.56822" sigma="2.74017e-08"/>
+            <measurement type="distance" value="4.54407" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="56" x="0.023395" y="6.43851" z="1.49885" isValid="1" sigmaX="1.91506e-05" sigmaY="1.60707e-05" sigmaZ="1.40209e-07">
+        <member type="station" ref="2"/>
+        <reading id="55" type="2" time="2014-08-11T14:32:06">
+            <measurement type="azimuth" value="2.44342" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="-1.56822" sigma="2.74017e-08"/>
+            <measurement type="distance" value="4.54407" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="58" x="0.0275646" y="6.42538" z="0.766595" isValid="1" sigmaX="1.89546e-05" sigmaY="1.58231e-05" sigmaZ="3.9223e-06">
+        <member type="station" ref="2"/>
+        <reading id="57" type="2" time="2014-08-11T14:32:18">
+            <measurement type="azimuth" value="-0.695593" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="1.72826" sigma="2.74017e-08"/>
+            <measurement type="distance" value="4.59536" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+    <observation id="60" x="0.027575" y="6.42538" z="0.766571" isValid="1" sigmaX="1.89545e-05" sigmaY="1.58231e-05" sigmaZ="3.92243e-06">
+        <member type="station" ref="2"/>
+        <reading id="59" type="2" time="2014-08-11T14:32:23">
+            <measurement type="azimuth" value="2.446" sigma="2.74017e-08"/>
+            <measurement type="zenith" value="-1.72826" sigma="2.74017e-08"/>
+            <measurement type="distance" value="4.59536" sigma="2.5e-05"/>
+        </reading>
+    </observation>
+</oiProjectData>

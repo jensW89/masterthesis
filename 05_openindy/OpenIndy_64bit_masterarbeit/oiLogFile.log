@@ -1,0 +1,28 @@
+[17/07/2014 09:54:57] {openIndyLog} :  index:  0
+[17/07/2014 09:54:58] {openIndyLog} :  plugins/p_defaultPlugind.dll
+[17/07/2014 09:55:26] {openIndyLog} :  SimplePolarMeasurement
+[17/07/2014 09:56:04] {openIndyLog} :  echo
+[11/08/2014 13:02:03] {openIndyLog} :  SimplePolarMeasurement
+[11/08/2014 13:02:10] {openIndyLog} :  SimplePolarMeasurement
+[11/08/2014 18:13:41] {openIndyLog} :  D:/SoftwareDev/Qt/OpenIndy/plugins/OiDefaultPlugin/bin/debug/p_defaultPlugind.dll
+[11/08/2014 18:13:41] {openIndyLog} :  plugin meta data loaded
+[11/08/2014 18:13:41] {openIndyLog} :  plugin valid
+[11/08/2014 18:13:43] {openIndyLog} :  copy: p_defaultPlugind.dll to C:/Users/Reinhold Kneib/Desktop/OpenIndy_64bit_masterarbeit/plugins/p_defaultPlugind.dll
+[11/08/2014 18:13:43] {openIndyLog} :  plugin file successfully copied
+[11/08/2014 18:13:43] {openIndyLog} :  plugin meta data loaded
+[11/08/2014 18:13:43] {openIndyLog} :  load plugin: C:/Users/Reinhold Kneib/Desktop/OpenIndy_64bit_masterarbeit/plugins/p_defaultPlugind.dll
+[11/08/2014 18:13:43] {openIndyLog} :  OpenIndy Default Plugin successfully created.
+[11/08/2014 18:13:43] {openIndyLog} :  plugin meta data loaded
+[11/08/2014 18:13:43] {openIndyLog} :  load plugin: C:/Users/Reinhold Kneib/Desktop/OpenIndy_64bit_masterarbeit/plugins/p_defaultPlugind.dll
+[11/08/2014 18:13:43] {openIndyLog} :  OpenIndy Default Plugin successfully created.
+[11/08/2014 18:13:43] {openIndyLog} :  plugin meta data loaded
+[11/08/2014 18:13:43] {openIndyLog} :  load plugin: C:/Users/Reinhold Kneib/Desktop/OpenIndy_64bit_masterarbeit/plugins/p_defaultPlugind.dll
+[11/08/2014 18:13:43] {openIndyLog} :  OpenIndy Default Plugin successfully created.
+[11/08/2014 18:13:43] {openIndyLog} :  plugin meta data loaded
+[11/08/2014 18:13:43] {openIndyLog} :  load plugin: C:/Users/Reinhold Kneib/Desktop/OpenIndy_64bit_masterarbeit/plugins/p_defaultPlugind.dll
+[11/08/2014 18:13:43] {openIndyLog} :  OpenIndy Default Plugin successfully created.
+[11/08/2014 18:13:53] {openIndyLog} :  index:  0
+[11/08/2014 18:13:53] {openIndyLog} :  plugins/p_defaultPlugind.dll
+[11/08/2014 18:14:13] {openIndyLog} :  Feature name already exists q
+[11/08/2014 18:15:01] {openIndyLog} :  SimplePolarMeasurement
+[11/08/2014 18:15:26] {openIndyLog} :  SimplePolarMeasurement

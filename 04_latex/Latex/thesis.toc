@@ -1,0 +1,53 @@
+\select@language {ngerman}
+\select@language {ngerman}
+\contentsline {chapter}{Kurzfassung}{III}{chapter*.1}
+\contentsline {chapter}{Abstract}{IV}{chapter*.2}
+\contentsline {chapter}{Abbildungsverzeichnis}{VIII}{chapter*.5}
+\contentsline {chapter}{Tabellenverzeichnis}{X}{chapter*.6}
+\contentsline {chapter}{\numberline {1}\IeC {\"U}berblick}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Ziele}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}Temperatur und thermische Ausdehnung}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Ausdehnung von Materialien}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Liste von Ausdehnungskoeffizienten}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}W\IeC {\"a}rmeleitf\IeC {\"a}higkeit}{8}{section.3.3}
+\contentsline {chapter}{\numberline {4}Temperaturerfassung und Sensoren}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Kontaktthermometer}{12}{section.4.1}
+\contentsline {paragraph}{Fl\IeC {\"u}ssigkeits- Gas- Thermometer}{12}{section*.7}
+\contentsline {paragraph}{Widerstandsthermometer}{13}{section*.8}
+\contentsline {paragraph}{Thermoelemente}{13}{section*.9}
+\contentsline {section}{\numberline {4.2}Infrarot}{13}{section.4.2}
+\contentsline {chapter}{\numberline {5}Anwendungsbeispiele der Temperaturkompensation}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}Permanent\IeC {\"u}berwachung des 20m VLBI- Radioteleskops an der Fundamentalstation in Wettzell}{15}{section.5.1}
+\contentsline {section}{\numberline {5.2}Koordinatenmessger\IeC {\"a}te und Messobjekt}{17}{section.5.2}
+\contentsline {section}{\numberline {5.3}Werkzeugmaschinen und Objekt}{18}{section.5.3}
+\contentsline {section}{\numberline {5.4}Flugzeugbau}{20}{section.5.4}
+\contentsline {section}{\numberline {5.5}Identifikation von Deformationen mit dynamischen Strukturmodellen}{22}{section.5.5}
+\contentsline {section}{\numberline {5.6}Unsicherheiten}{23}{section.5.6}
+\contentsline {section}{\numberline {5.7}Zusammenfassung und Beurteilung}{25}{section.5.7}
+\contentsline {chapter}{\numberline {6}Entwicklung des Verfahren zur Temperaturkompensation}{27}{chapter.6}
+\contentsline {section}{\numberline {6.1}OpenIndy}{27}{section.6.1}
+\contentsline {section}{\numberline {6.2}Grundkonzept und Movements}{28}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Ausdehnung von Objekten}{33}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Erweiterung der Klassen Transformationsparameter und Koordinatensystem}{37}{subsection.6.2.2}
+\contentsline {paragraph}{\textit {Datumstransformation}}{37}{section*.10}
+\contentsline {paragraph}{\textit {TrafoParam}\footnote {\url {https://github.com/OpenIndy/OpenIndy/blob/jens_masterthesis/src/trafoparam.h}}}{39}{section*.11}
+\contentsline {paragraph}{\textit {CoordinateSystem}\footnote {\url {https://github.com/OpenIndy/OpenIndy/blob/jens_masterthesis/src/coordinatesystem.h}}}{39}{section*.12}
+\contentsline {chapter}{\numberline {7}Implementierung und Umsetzung des Verfahren}{40}{chapter.7}
+\contentsline {section}{\numberline {7.1}Integration der Anwendungslogik von Transformationen und Temperaturkompensation in OpenIndy}{40}{section.7.1}
+\contentsline {section}{\numberline {7.2}Anwenden von Transformationen}{41}{section.7.2}
+\contentsline {section}{\numberline {7.3}Funktionen zur Bestimmung der Ausdehnung}{44}{section.7.3}
+\contentsline {paragraph}{Variante 1}{45}{section*.13}
+\contentsline {paragraph}{Variante 2}{47}{section*.14}
+\contentsline {subsection}{\numberline {7.3.1}Standardverfahren zur Temperaturkompensation}{47}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}6 Parameter Helmert Transformation}{50}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}9 Parameter Helmert Transformation}{53}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Bestimmung des Movements aus einer Transformation}{55}{subsection.7.3.4}
+\contentsline {chapter}{\numberline {8}Verifizierung und Validierung}{58}{chapter.8}
+\contentsline {section}{\numberline {8.1}Einfluss des Ausdehnungsursprungs}{58}{section.8.1}
+\contentsline {section}{\numberline {8.2}Erfassung der Ausdehnung eines Zylinders mit zwei Standpunkten}{66}{section.8.2}
+\contentsline {section}{\numberline {8.3}Einfluss der Temperaturkompensation bei Simulationen}{71}{section.8.3}
+\contentsline {section}{\numberline {8.4}Zusammenfassung der Ergebnisse}{72}{section.8.4}
+\contentsline {chapter}{\numberline {9}Fazit und Ausblick}{73}{chapter.9}
+\contentsline {chapter}{Literaturverzeichnis}{75}{chapter*.15}
+\contentsline {chapter}{\numberline {A}Vergleich der Transformationen}{79}{appendix.A}
+\contentsline {chapter}{\numberline {B}Sollwerte und Messwerte zu den Testmessungen}{83}{appendix.B}

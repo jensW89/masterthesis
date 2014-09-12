@@ -1,0 +1,362 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF8
+
+
+@Article{baldwin2007,
+  Title                    = {Application of simulation software to coordinate measurement uncertainty evaluations},
+  Author                   = {Baldwin, Jon M and Summerhays, Kim D and Campbell, D and Henke, R},
+  Journal                  = {Measure},
+  Year                     = {2007},
+  Number                   = {4},
+  Pages                    = {40--52},
+  Volume                   = {2}
+}
+
+@InProceedings{Bryan1965,
+  Title                    = {Thermal effects in dimensional metrology},
+  Author                   = {Bryan, James B and PEARSON, JW and Brewer, William and MCCLURE, ER},
+  Booktitle                = {MECHANICAL ENGINEERING},
+  Year                     = {1965},
+  Note                     = {UNIVERSITY OF CALIFORNIA
+Lawrence Radiation Laboratory
+Livermore, California
+AEC Coniract No. W-7405-eng-48},
+  Number                   = {10},
+  Organization             = {ASME-AMER SOC MECHANICAL ENG 345 E 47TH ST, NEW YORK, NY 10017},
+  Pages                    = {70},
+  Volume                   = {87}
+}
+
+@Article{Doiron2006,
+  Title                    = {Uncertainties Related to Thermal Expansion in Dimensional Metrology},
+  Author                   = {Doiron, Ted},
+  Journal                  = {NCSL International Measure. The Journal of Measurement Science. Vol. 1 No. 4 • December 2006},
+  Year                     = {2006}
+}
+
+@MastersThesis{Drixler1993,
+  Title                    = {Analyse der Form und Lage von Objekten im Raum},
+  Author                   = {Drixler, Erwin},
+  School                   = {Bayerischen Akademie der Wissenschaft},
+  Year                     = {1993},
+
+  Owner                    = {Reinhold Kneib},
+  Timestamp                = {2014.08.01}
+}
+
+@Article{Eichhorn2005,
+  Title                    = {Identifikation von dynamischen Deformationsprozessen mit Methoden der adaptiven KALMAN-Filterung},
+  Author                   = {Eichhorn, Andreas},
+  Journal                  = {GEOWISSENSCHAFTLICHE MITTEILUNGEN},
+  Year                     = {2005},
+  Number                   = {Heft Nr. 71},
+  Pages                    = {S. 49-55}
+}
+
+@MastersThesis{Eichhorn2005a,
+  Title                    = {Ein Beitrag zur Identifikation von dynamischen Strukturmodellen mit Methoden der adaptiven KALMAN-Filterung},
+  Author                   = {Eichhorn, Andreas},
+  School                   = {Fakultät Bau- und Umweltingenieurwissenschaften der Universität Stuttgart},
+  Year                     = {2005}
+}
+
+@Article{eschelbach2007,
+  Title                    = {St{\"o}ranf{\"a}lligkeit geod{\"a}tischer Pr{\"a}zisionsmessungen durch lo-kale Temperaturschwankungen},
+  Author                   = {ESCHELBACH, Cornelia},
+  Year                     = {2007}
+}
+
+@Article{Ferger,
+  Title                    = {Multisensor-Koordinatenmessgeräte mit Temperaturkompensation. Sichere Messergebnisse zu jeder Jahreszeit},
+  Author                   = {Ferger, Detlef and Neumann, Hans Joachim},
+  Journal                  = {Quality Engineering Sonderdruck. Werth Messtechnik GmbH}
+}
+
+@InProceedings{Fletcher2005,
+  Title                    = {Flexible modelling and compensation of machine tool thermal errors},
+  Author                   = {Fletcher, Simon and Longstaff, Andrew P and Myers, Alan},
+  Booktitle                = {20th annual meeting of American society for precision engineering, Norfolk, VA},
+  Year                     = {2005}
+}
+
+@Article{gindorf,
+  Title                    = {Qualit{\"a}tssicherung durch Online-Schichtdickenmessung OC$^3$ (OC$^3$= Optical Coating Characteristics Control)},
+  Author                   = {Gindorf, Alexander and K{\"a}hny, Andreas and Meier, Achim and M{\"u}nchen, MTU Aero Engines}
+}
+
+@Book{Graf1969,
+  Title                    = {Meßtechnik für Maschinenbau und Feinwerktechnik},
+  Author                   = {Graf, Anton},
+  Publisher                = {Hanser},
+  Year                     = {1969},
+
+  Address                  = {München},
+  Series                   = {Das Fachwissen des Ingenieurs},
+
+  Keywords                 = { ; Feinwerktechnik / Maschinenbau / Messtechnik},
+  Location                 = {Bibliothek der Fachhochschule Mainz, Standort Campus (Geoinformatik und Vermessung) / Freihand ; Geoinformatik und Vermessung [Signatur: V 2.5/20];
+},
+  Pages                    = {266 S.}
+}
+
+@Article{Hernla2008,
+  Title                    = {Messunsicherheitsberechnungen f{\"u}r Koordinatenmessungen in der industriellen Praxis},
+  Author                   = {Hernla, Ing M},
+  Journal                  = {Fachtagung „Messunsicherheit praxisgerecht bestimmen“, 12.-13.11.2008 in Erfurt
+VDI Wissensforum GmbH, Düsseldorf 2008, ISBN 978-3-98-12624-1-4},
+  Year                     = {2008}
+}
+
+@Article{Hernla2013,
+  Title                    = {Messunsicherheitsbilanzen f{\"u}r optische Koordinatenmesssysteme},
+  Author                   = {Hernla, Ing M and B{\"o}nniger, T},
+  Journal                  = {Fachtagung „Messunsicherheit praxisgerecht bestimmen“, 5.-6.11.2013 in Braunschweig
+VDI-Bericht 2216, VDI Verlag GmbH, Düsseldorf 2013, S. 133-141},
+  Year                     = {2013}
+}
+
+@Article{Hernla2006,
+  Title                    = {Messunsicherheitsberechnungen f{\"u}r Koordinatenmessungen},
+  Author                   = {Hernla, M},
+  Journal                  = {Absch{\"a}tzung der aufgabenspezifischen Messunsicherheit mit Hilfe von Kalkulationstabellen. VDI-Berichte Nr. 1947},
+  Year                     = {2006},
+  Pages                    = {45--57}
+}
+
+@Book{Keferstein2008,
+  Title                    = {Fertigungsmesstechnik : praxisorientierte Grundlagen, moderne Messverfahren},
+  Author                   = {Keferstein, Claus P. ; Dutschke, Wolfgang},
+  Publisher                = {Teubner},
+  Year                     = {2008},
+
+  Address                  = {Wiesbaden},
+  Edition                  = {6., überarb. und erw. Aufl.},
+  Note                     = {Literaturverz. S. [241] - 245},
+  Series                   = {Lehrbuch},
+
+  ISBN                     = {978-3-8351-0150-0 ; 3-8351-0150-1},
+  Keywords                 = {Fertigungsmesstechnik},
+  Location                 = {Bibliothek der Fachhochschule Mainz, Standort Campus (Geoinformatik und Vermessung) / Freihand ; Geoinformatik und Vermessung [Signatur: V 13.8/2];
+},
+  Pages                    = {X, 273 S.},
+  Url                      = {http://deposit.d-nb.de/cgi-bin/dokserv?id=2980271&prov=M&dok_var=1&dok_ext=htm ; http://scans.hebis.de/HEBCGI/show.pl?19166982_toc.pdf}
+}
+
+@Article{losler2010,
+  Title                    = {Permanent{\"u}berwachung des 20 m VLBI-Radioteleskops an der Fundamentalstation in Wettzell},
+  Author                   = {L{\"o}sler, Michael and Eschelbach, Cornelia and Schenk, Andreas and Neidhardt, Alexander},
+  Journal                  = {ZfV},
+  Year                     = {2010},
+  Pages                    = {40--48},
+  Volume                   = {1}
+}
+
+@Book{Lindner2006,
+  Title                    = {Physik für Ingenieure : mit zahlreichen Tabellen und Beispielen},
+  Author                   = {Lindner, Helmut},
+  Editor                   = {Siebke, Wolfgang},
+  Publisher                = {Fachbuchverl. Leipzig im Carl-Hanser-Verl.},
+  Year                     = {2006},
+
+  Address                  = {München [u.a.]},
+  Edition                  = {17. Aufl.},
+
+  ISBN                     = {3-446-40609-3 ; 978-3-446-40609-4},
+  Keywords                 = {Physik},
+  Location                 = {Bibliothek der Fachhochschule Mainz, Standort Campus (Geoinformatik und Vermessung) / Freihand ; Geoinformatik und Vermessung [Signatur: V 13.1/2 (1.Ex.)];
+Bibliothek der Fachhochschule Mainz, Standort Campus (Geoinformatik und Vermessung) / Freihand ; Geoinformatik und Vermessung [Signatur: V 13.1/2 (2.-5.Ex.)];
+},
+  Pages                    = {795 S.},
+  Url                      = {http://deposit.d-nb.de/cgi-bin/dokserv?id=2772851&prov=M&dok_var=1&dok_ext=htm ; http://scans.hebis.de/HEBCGI/show.pl?13595391_toc.pdf}
+}
+
+@MastersThesis{Lux2014,
+  Title                    = {Bestimmung von Messunsicherheiten durch Monte-Carlo-Simulation},
+  Author                   = {Martin Lux},
+  School                   = {Fachhochschule Mainz},
+  Year                     = {2014}
+}
+
+@Article{Wambach2014,
+  Title                    = {OpenIndy - eine Open-Source-Software für Industrimesssysteme},
+  Author                   = {Lux, M. and Wambach, J. and Rauls, B. and Kern, F. and Paluszek, H.},
+  Journal                  = {Photogrammetrie, Laserscanning, Optische 3D-Messtechnik - Beiträge der Oldenburger 3D-Tage 2014},
+  Year                     = {2014},
+  Pages                    = {134-144}
+}
+
+@Article{Moeser2007,
+  Title                    = {20 Jahre Industrievermessung},
+  Author                   = {M{\"o}ser, Michael},
+  Journal                  = {Tagungsband zum 3. Dresdener Ingenieurgeodäsietag, Schriftenreihe des Geodätischen Instituts der TU Dresden},
+  Year                     = {2007},
+  Pages                    = {S. 7-19},
+  Volume                   = {Nr. 4}
+}
+
+@Article{Mayr2012,
+  Title                    = {Thermal issues in machine tools},
+  Author                   = {Mayr, Josef and Jedrzejewski, Jerzy and Uhlmann, Eckart and Alkan Donmez, M and Knapp, Wolfgang and H{\"a}rtig, Frank and Wendt, Klaus and Moriwaki, Toshimichi and Shore, Paul and Schmitt, Robert and others},
+  Journal                  = {CIRP Annals-Manufacturing Technology},
+  Year                     = {2012},
+  Number                   = {2},
+  Pages                    = {771--791},
+  Volume                   = {61},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{mekid2010,
+  Title                    = {Spatial thermal mapping using thermal infrared camera and wireless sensors for error compensation via open architecture controllers},
+  Author                   = {Mekid, S},
+  Journal                  = {Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering},
+  Year                     = {2010},
+  Number                   = {7},
+  Pages                    = {789--798},
+  Volume                   = {224},
+
+  Publisher                = {SAGE Publications}
+}
+
+@Article{Muelaner2011,
+  Title                    = {Metrology enhanced tooling for aerospace (meta): strategies for improved accuracy of jig built structures},
+  Author                   = {Muelaner, Jody and Martin, Oliver C and Maropoulos, Paul G},
+  Journal                  = {SAE Aerotech 2011},
+  Year                     = {2011},
+
+  Publisher                = {University of Bath}
+}
+
+@Article{Neumann08,
+  Title                    = {Messen mit geringem Temperatureinfluss},
+  Author                   = {Neumann, Hans Joachim},
+  Journal                  = {QZ Qualität und Zuverlässigkeit 1/2008},
+  Year                     = {2008},
+  Pages                    = {30-33}
+}
+
+@Book{Niemeier2008,
+  Title                    = {Ausgleichungsrechnung : statistische Auswertemethoden},
+  Author                   = {Niemeier, Wolfgang},
+  Publisher                = {de Gruyter},
+  Year                     = {2008},
+
+  Address                  = {Berlin [u.a.]},
+  Edition                  = {2., überarb. u. erw. Aufl.},
+  Note                     = {Literaturverz. S. [477] - 487},
+
+  ISBN                     = {978-3-11-019055-7},
+  Keywords                 = {Ausgleichsrechnung},
+  Location                 = {Bibliothek der Fachhochschule Mainz, Standort Campus (Geoinformatik und Vermessung) / Freihand [Signatur: V 2.7/34 (6.-9.Ex.)];
+Bibliothek der Fachhochschule Mainz, Standort Campus (Geoinformatik und Vermessung) / Freihand.- Geoinformatik und Vermessung [Signatur: V 2.7/34 A];
+Bibliothek der Fachhochschule Mainz, Standort Campus (Geoinformatik und Vermessung) / Freihand [Signatur: V 2.7/34 (2.-5.Ex.)];
+},
+  Pages                    = {XV, 493 S.},
+  Url                      = {http://scans.hebis.de/HEBCGI/show.pl?19562971_toc.pdf ; http://deposit.d-nb.de/cgi-bin/dokserv?id=3018921&prov=M&dok_var=1&dok_ext=htm}
+}
+
+@Article{optris,
+  Title                    = {Grundlagen der berührungslosen Temperaturmessung},
+  Author                   = {optris infrared thermometers}
+}
+
+@Article{Siddiqi,
+  Title                    = {GRUNDLAGENPRAKTIKUM THERMODYNAMIK. Versuche zur Temperaturmessung},
+  Author                   = {Siddiqi, M. A.},
+  Journal                  = {Universität Duisburg-Essen
+Fakultät für Ingenieurwissenschaften
+Maschinenbau, Thermodynamik}
+}
+
+@MastersThesis{Wambach2014a,
+  Title                    = {Temperaturkompensation in der Industrievermessung},
+  Author                   = {Wambach, Jens},
+  School                   = {Fachhochschule Mainz},
+  Year                     = {2014}
+}
+
+@Article{yuan1998,
+  Title                    = {The real-time error compensation technique for CNC machining systems},
+  Author                   = {Yuan, Jingxia and Ni, Jun},
+  Journal                  = {Mechatronics},
+  Year                     = {1998},
+  Number                   = {4},
+  Pages                    = {359--380},
+  Volume                   = {8},
+
+  Publisher                = {Elsevier}
+}
+
+@PhdThesis{Zhu2008,
+  Title                    = {Robust thermal error modeling and compensation for CNC machine tools},
+  Author                   = {Zhu, Jie},
+  School                   = {The University Of Michigan},
+  Year                     = {2008},
+  Type                     = {dissertation submitted in partial fulfillment of the requirements for the degree of Doctor of Philosophy}
+}
+
+@Book{Carosio2006,
+  Title                    = {Fehlertheorie und Ausgleichungsrechnung},
+  Editor                   = {Carosio, Alessandro},
+  Publisher                = {Eidgenössische Technische Hochschule Zürich, Institut für Geodäsie und Photogrammetrie},
+  Year                     = {2006},
+
+  Owner                    = {Reinhold Kneib},
+  Timestamp                = {2014.08.01}
+}
+
+@Book{Dillinger2007,
+  Title                    = {Fachkunde Metall},
+  Editor                   = {Dillinger, Josef},
+  Publisher                = {Verl. Europa-Lehrmittel},
+  Year                     = {2007},
+
+  Address                  = {Haan-Gruiten},
+  Edition                  = {55., neu bearb. Aufl.},
+  Series                   = {Europa-Fachbuchreihe für metalltechnische Berufe},
+
+  ISBN                     = {978-3-8085-1155-8},
+  Keywords                 = {Metallberuf},
+  Location                 = {Bibliothek der Fachhochschule Mainz, Standort Holzstraße / Freihand [Signatur: G 17.5/15 A];
+Bibliothek der Fachhochschule Mainz, Standort Holzstraße / Freihand [Signatur: G 17.5/15 B];
+Bibliothek der Fachhochschule Mainz, Standort Campus (Geoinformatik und Vermessung) / Freihand ; Geoinformatik und Vermessung [Signatur: V 13.1/3];
+},
+  Pages                    = {608 S.},
+  Url                      = {http://deposit.d-nb.de/cgi-bin/dokserv?id=2932264&prov=M&dok_var=1&dok_ext=htm}
+}
+
+@Book{Hoffmann2007,
+  Title                    = {Taschenbuch der Messtechnik : mit 63 Tabellen},
+  Editor                   = {Hoffmann, Jörg [Hrsg.] ; Adunka, Franz},
+  Publisher                = {Fachbuchverl. Leipzig im Carl-Hanser-Verl.},
+  Year                     = {2007},
+
+  Address                  = {München},
+  Edition                  = {5., aktualis. Aufl.},
+  Note                     = {Literaturverz. S. [624] - 649},
+
+  ISBN                     = {978-3-446-40993-4},
+  Keywords                 = {Messtechnik},
+  Location                 = {Bibliothek der Fachhochschule Mainz, Standort Campus (Geoinformatik und Vermessung) / Freihand ; Geoinformatik und Vermessung [Signatur: V 13.8/1];
+},
+  Pages                    = {678 S.},
+  Url                      = {http://scans.hebis.de/HEBCGI/show.pl?19061976_toc.pdf}
+}
+
+@Book{Stoecker2007,
+  Title                    = {Taschenbuch der Physik : Formeln, Tabellen, Übersichten},
+  Editor                   = {St{\"o}cker, Horst},
+  Publisher                = {Deutsch},
+  Year                     = {2007},
+
+  Address                  = {Frankfurt am Main},
+  Edition                  = {Nachdr. der 5., korr. Aufl.},
+
+  ISBN                     = {3-8171-1721-3 ; 978-3-8171-1721-5},
+  Keywords                 = {Physik},
+  Location                 = {Bibliothek der Fachhochschule Mainz, Standort Campus (Geoinformatik und Vermessung) / Freihand ; Geoinformatik und Vermessung [Signatur: V 13.1/1 (1.Ex.)];
+Bibliothek der Fachhochschule Mainz, Standort Campus (Geoinformatik und Vermessung) / Freihand ; Geoinformatik und Vermessung [Signatur: V 13.1/1 (2.-5.Ex.)];
+},
+  Pages                    = {XXIV, 1022 S.}
+}
+
